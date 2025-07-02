@@ -62,4 +62,4 @@ API RESTful para um sistema de lista de tarefas (To-do List), desenvolvida com S
 
 ### ✍️ Autor
 
-**Dayanne Souza** - [LinkedIn](https://www.linkedin.com/in/dadaysmo/) [GitHub](https://github.com/dadaysmo)
+**Dayanne Souza** - [LinkedIn](https://www.linkedin.com/in/dadaysmo/) | [GitHub](https://github.com/dadaysmo)
