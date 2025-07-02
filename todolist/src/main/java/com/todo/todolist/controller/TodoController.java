@@ -2,6 +2,7 @@ package com.todo.todolist.controller;
 
 import com.todo.todolist.entity.Todo;
 import com.todo.todolist.repository.TodoRepository;
+import jakarta.validation.Valid;
 import com.todo.todolist.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -17,7 +18,7 @@ public class TodoController {
     private TodoRepository todoRepository;
     
     @PostMapping
-    public Todo criarTodo(@RequestBody Todo todo) {
+    public Todo criarTodo(@Valid @RequestBody Todo todo) {
     	return todoRepository.save(todo);
     }
     
@@ -27,7 +28,7 @@ public class TodoController {
     }
     
     @PutMapping ("/{id}")
-    public ResponseEntity<Todo> atualizarTodo(@PathVariable Long id, @RequestBody Todo todoDetalhes){
+    public ResponseEntity<Todo> atualizarTodo(@PathVariable Long id, @Valid @RequestBody Todo todoDetalhes){
      	
     	//verifica se encontrada a tarefa no BD
     	Todo todoExistente = todoRepository.findById(id)
