@@ -8,7 +8,7 @@ API RESTful para um sistema de lista de tarefas (To-do List), desenvolvida com S
 
 ### 🛠️ Tecnologias Utilizadas
 
-* **Java 21** (ou a versão que você usou)
+* **Java 21**
 * **Spring Boot 3**
 * **Spring Web**
 * **Spring Data JPA**
@@ -42,7 +42,7 @@ API RESTful para um sistema de lista de tarefas (To-do List), desenvolvida com S
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone [https://github.com/dadaysmo/todolist.git](https://github.com/dadaysmo/todolist.git)
     ```
 2.  **Configure o Banco de Dados:**
     * Crie um banco de dados MySQL chamado `todolist`.
